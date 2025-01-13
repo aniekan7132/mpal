@@ -1,0 +1,40 @@
+.loading-page > div > div {
+    position: relative;
+    width: 300px;
+  }
+  
+  .loading-page > div > div > :where(img, div) {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+  
+  .loading-page > div > div .loading {
+    z-index: 1;
+  }
+  
+  .loading-page > div > div .city {
+    z-index: 2;
+  }
+  
+  svg path.cloud1 {
+    animation: pulse 5s infinite linear alternate;
+  }
+  
+  svg path.cloud2 {
+    animation: pulse 5.5s infinite linear alternate;
+  }
+  
+  svg path.cloud3 {
+    animation: pulse 6s infinite linear alternate;
+  }
+  
+  @keyframes pulse {
+    from {
+        transform: translateY(0px) translateX(0px);
+    } 
+    to {
+        transform: translateY(-20px) translateX(50px);
+    }
+  }
+  

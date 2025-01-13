@@ -1,0 +1,91 @@
+.get-started-section {
+  padding: 0 6.5rem;
+}
+
+.get-started-header {
+  font-size: 2rem;
+  color: #2c2d30;
+  padding: 2rem 0;
+}
+
+.get-started-header-white {
+  color: #ffffff;
+  padding: 0;
+}
+
+.get-started-text {
+  /* font-size: 1.5rem; */
+  color: #872d30;
+  width: 42rem;
+  padding: 1.5rem 0rem;
+  line-height: 1.5rem;
+}
+
+.list {
+  margin-left: 2rem;
+  padding: 0.5rem;
+}
+
+.get-started-link {
+  color: #00b36e;
+  border-bottom: none;
+  font-weight: normal;
+}
+
+.caution-div {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #ff9426;
+  max-width: max-content;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  background: #fbeddc;
+}
+
+.tip-div {
+  border: 1px solid #2b6fd5;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: max-content;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.tip-icon {
+  color: #2b6fd5;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.tip-text {
+  color: #1A8ECC;
+  width: 40rem;
+}
+.tip {
+  font-weight: 600;
+  color: #2b6fd5;
+}
+
+.caution-icon {
+  color: #ff9426;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.note {
+  font-weight: 600;
+  color: #a95e17;
+}
+
+.caution-text {
+  color: #a95e17;
+  width: 40rem;
+}
+
+.caution-text-big {
+  font-size: 2rem;
+  color: #2c2d30;
+  margin-top: 2rem;
+  width: 35rem;
+}

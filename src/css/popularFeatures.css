@@ -1,0 +1,29 @@
+.popular-features-section {
+  padding: 0 6rem;
+}
+
+.card-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.popular-features-header {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 400px) {
+  .popular-features-section {
+    padding: 0 1rem;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .popular-features-header {
+    margin-top: 4rem;
+  }
+}

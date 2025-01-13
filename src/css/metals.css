@@ -1,0 +1,71 @@
+.metals-section {
+  padding: 0 6rem;
+}
+
+.metals-header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sourced-and-stored-section {
+  border-bottom: 1px solid #e1e3e6;
+}
+
+.sourced-logo-div {
+  padding: 0 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  height: 3rem;
+}
+
+.sourced-logo {
+  width: 10rem;
+}
+
+.sourced-logo-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.do-it-on-mercuryo-metals {
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 6rem 4rem 6rem;
+  border-bottom: 1px solid #e1e3e6;
+}
+
+@media (max-width: 400px) {
+  .metals-section {
+    padding: 4rem 1rem 0 1rem;
+  }
+
+  .sourced-logo-div {
+    padding: 0 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 1rem;
+  }
+
+  .sourced-logo-cont {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sourced-logo {
+    width: 5rem;
+  }
+
+  .do-it-on-mercuryo-metals {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 4rem 1rem;
+    border-bottom: 1px solid #e1e3e6;
+  }
+}

@@ -1,0 +1,302 @@
+.section-about-us {
+}
+
+.about-us-container {
+  border-bottom: 1px solid #e1e3e6;
+}
+
+.about-us {
+  display: flex;
+  gap: 3rem;
+  padding: 6rem 0rem 2.5rem 9rem;
+}
+
+.about-us-header {
+  width: 20rem;
+}
+
+.about-video {
+  width: 30rem;
+  height: 30rem;
+  flex: 1;
+}
+
+.about-video img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.about-us-img-cont {
+  border-bottom: 1px solid #e1e3e6;
+}
+
+.aboutus-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem;
+}
+
+.aboutus-img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+.about-us-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+.remove-margin {
+  margin-top: 0;
+}
+
+.aboutus-twitter-icon {
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.about-us-twitter {
+  color: #2b8ef1;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.aboutus-who-we-are {
+  padding: 6rem 6rem 3rem 6rem;
+  border-bottom: 1px solid #e1e3e6;
+}
+
+.about-us-statistics {
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.aboutus-numbers-div {
+  flex: 1;
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem 0 2rem 0;
+}
+
+.aboutus-numbers {
+  font-size: 1.8rem;
+  color: #000000;
+  font-weight: 600;
+}
+
+.aboutus-changing-the-world {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e1e3e6;
+}
+
+.aboutus-changing-the-world-cont {
+  padding: 0 6rem;
+}
+
+.aboutus-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.aboutus-what-we-do {
+  padding: 6rem 6rem;
+  border-bottom: 1px solid #e1e3e6;
+}
+
+.what-we-do-bullet-cont {
+  display: flex;
+  gap: 1rem;
+}
+
+.what-we-do-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex: 1;
+}
+
+.what-we-do-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin-top: 2rem;
+  flex: 1;
+}
+
+.color {
+  color: #4c4c4c;
+  font-size: 1rem;
+  margin-top: 0;
+}
+.color-2 {
+  margin-top: 0;
+  color: #4c4c4c;
+  font-size: 1.2rem;
+}
+
+.icon-bullet-div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.width-for-text {
+  width: 35rem;
+}
+
+.join-our-team {
+  background: #27d17f;
+  padding: 15px 45px;
+  borderradius: "5px";
+  color: #ffffff;
+  fontsize: 1.3rem;
+}
+
+.start-ivesting-today {
+  background: #27d17f;
+  padding: 15px 45px;
+  borderradius: 5px;
+  color: #ffffff;
+  fontsize: 1.3rem;
+}
+
+@media (max-width: 400px) {
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 2.5rem 0;
+  }
+
+  .about-us-details {
+    order: 2;
+    padding: 1rem;
+    margin-top: -1.5rem;
+  }
+
+  .about-video {
+    margin-top: 2.5rem;
+  }
+
+  .about-video img {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .aboutus-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0 4rem 0;
+    gap: 3rem;
+  }
+
+  .about-us-name {
+    font-size: 1.2rem;
+  }
+
+  .about-us-twitter {
+    font-size: 0.8rem;
+  }
+
+  .aboutus-who-we-are {
+    padding: 2rem 1rem 3rem 1rem;
+  }
+
+  .about-us-statistics {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutus-numbers-div {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 0.8rem;
+    padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+  }
+
+  .aboutus-numbers {
+    font-size: 1.3rem;
+  }
+
+  .aboutus-changing-the-world {
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+
+  .aboutus-changing-the-world-cont {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .aboutus-button {
+    display: flex;
+    justify-content: start;
+  }
+
+  .aboutus-what-we-do {
+    padding: 2rem 0.5rem 2rem 0.5rem;
+  }
+
+  .what-we-do-bullet-cont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .color {
+    color: #4c4c4c;
+    font-size: 0.9rem;
+  }
+
+  .icon-bullet-div {
+    display: flex;
+  }
+
+  .color-2 {
+    font-size: 1rem;
+  }
+
+  .bullet-icon {
+    width: 1.5rem;
+  }
+
+  .join-our-team {
+    padding: 0.7rem 2rem;
+    background: #27d17f;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 0.5rem;
+  }
+
+  .start-ivesting-today {
+    padding: 0.7rem 2rem;
+    background: #27d17f;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 0.5rem;
+  }
+
+  .aboutus-button-2 {
+    display: flex;
+    justify-content: center;
+  }
+}

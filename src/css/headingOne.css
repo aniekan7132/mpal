@@ -1,0 +1,11 @@
+.header-text {
+  font-size: 3rem;
+  color: #000000;
+  text-align: left;
+}
+
+@media (max-width: 400px) {
+  .header-text {
+    font-size: 1.8rem;
+  }
+}

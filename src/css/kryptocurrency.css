@@ -1,0 +1,282 @@
+.cryptocurrency-section {
+}
+
+.crypto-header-section {
+  margin-top: 12rem;
+  padding: 0 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.crypto-section-div {
+  border-bottom: 1px solid #e1e3e6;
+  padding: 0 6rem;
+}
+
+.crypto-icon-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem 0;
+}
+
+.crypto-icon-div {
+  width: 5rem;
+  height: 5rem;
+  background: #f2f3f7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crypto-icon-btn-div {
+}
+
+.trusted-icon {
+  font-size: 2rem;
+  color: #5e3eff;
+}
+
+.crypto-text {
+  text-align: left;
+}
+
+.home-section-invest-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 5rem 6rem;
+  border-bottom: 1px solid #e1e3e6;
+}
+
+.home-section-invest-3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-invest-section-text-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-invest-section-header {
+  margin-top: 3rem;
+  width: 25rem;
+}
+
+.home-spend-section-header {
+  margin-top: 3rem;
+  width: 30rem;
+}
+
+.home-track-section-header {
+  margin-top: 3rem;
+}
+
+.home-invest-text {
+  font-size: 1.3rem;
+  margin-top: 1.2rem;
+}
+
+.home-track-section {
+  border-bottom: none;
+}
+
+.home-section-image {
+  width: 35rem;
+  height: 35rem;
+  object-fit: cover;
+}
+
+.home-spend-crypto-section {
+}
+
+.home-austria-exclusive {
+  padding: 2rem 6rem;
+}
+
+.home-austria-background {
+  background: #f5f5f5;
+}
+
+.home-austria-text {
+  font-size: 1.2rem;
+}
+
+.home-austria-text-big {
+  font-size: 2.3rem;
+  color: #000000;
+}
+
+.currency-img {
+  width: 17rem;
+  /* height: 15rem; */
+}
+
+.do-it-on-mercuryo {
+  padding: 6rem 6rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.do-it-on-merc-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4c4c4c;
+}
+
+.all-on-merc-text {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  width: 17rem;
+}
+
+.crypto-learn-overall-wrapper {
+  border-top: 1px solid #e1e3e6;
+  border-bottom: 1px solid #e1e3e6;
+}
+
+.crypto-learn-section {
+  padding: 8rem 6rem 12rem 6rem;
+}
+
+.crypto-learn-text-big {
+  color: #000000;
+  width: 45rem;
+}
+
+.crypto-grid-cont {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 0.2rem;
+  grid-template-columns: repeat (3, 1fr);
+}
+
+.crypto-risk-text {
+  margin-top: 9rem;
+}
+
+.crypto-tax-btn {
+  background: #27d17f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+@media (max-width: 400px) {
+  .crypto-header-section {
+    margin-top: 2rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .crypto-icon-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 1.5rem 4rem 1.5rem;
+  }
+
+  .crypto-section-div {
+    padding: 0 1rem;
+  }
+
+  .crypto-icon-btn-div {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .home-section-invest-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+  }
+
+  .home-invest-text {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .home-section-image {
+    width: 15rem;
+    /* height: 25rem; */
+    object-fit: cover;
+  }
+
+  .home-section-image-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-austria-exclusive {
+    padding: 0rem 1rem;
+  }
+
+  .home-austria-text-big {
+    font-size: 1.5rem;
+  }
+
+  .home-austria-text {
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+
+  .crypto-tax-btn {
+    background: #27d17f;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+  }
+
+  .do-it-on-mercuryo {
+    padding: 6rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .do-it-on-merc-heading {
+    font-size: 1rem;
+  }
+
+  .all-on-merc-text {
+    font-size: 1rem;
+    line-height: normal;
+    width: 100%;
+  }
+
+  .crypto-learn-section {
+    padding: 4rem 1rem 5rem 1rem;
+  }
+
+  .crypto-learn-text-big {
+    width: 100%;
+  }
+
+  .crypto-grid-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .crypto-risk-text {
+    margin-top: 4rem;
+  }
+
+  .crypto-icon-div {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .trusted-icon {
+    font-size: 1.5rem;
+  }
+}

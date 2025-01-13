@@ -1,0 +1,213 @@
+.section-etfs {
+  padding: 7rem 6.5rem 0 6.5rem;
+  border-bottom: 1px solid #e1e3e6;
+}
+
+.section-header {
+  display: flex;
+}
+
+.section-header-container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-heading {
+  width: 37rem;
+}
+
+.section-heading-1 {
+  width: 30rem;
+}
+
+.commodities-sub-header-cont {
+  /* display: flex;
+  gap: 0.4rem; */
+}
+
+.section-button {
+  margin-top: 1rem;
+}
+
+.section-header-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  /* gap: 5rem; */
+  /* margin-top: 5rem; */
+}
+
+.section-header-banner-div {
+  width: 33rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-header-banner {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.partners-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.height {
+  margin-top: -0.2rem;
+}
+
+.partners-logo-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.partners-logo {
+  width: 8rem;
+  height: 8rem;
+}
+
+.partners-logo-1 {
+  height: 1.5rem;
+  object-fit: cover;
+}
+
+.sub-etf-section {
+  padding: 0 6rem;
+}
+
+.sub-section-padding {
+  padding-top: 5rem;
+}
+
+.footer-padding {
+  padding: 0 6rem;
+}
+
+.common-questions-text {
+  font-size: 3rem;
+  color: #000000;
+  font-weight: 600;
+  padding: 0 6rem;
+}
+
+.etf-faq-cont {
+  padding: 0 6rem 4rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.etf-get-started-btn {
+  background: #27d17f;
+  padding: 15px 45px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1.3rem;
+  display: inline-block;
+}
+
+@media (max-width: 400px) {
+  .section-etfs {
+    padding: 3rem 1rem 0 1rem;
+  }
+
+  .section-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-heading-1 {
+    width: 100%;
+    margin: 0.8rem 0 1rem 0;
+  }
+
+  .etf-get-started-btn {
+    padding: 5px 10px;
+  }
+
+  .etf-get-started-btn {
+    background: #27d17f;
+    borderradius: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    padding: 0.6rem 1.5rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+
+  .section-header-banner-div {
+    width: 100%;
+  }
+
+  .mobile-past-performance-text {
+    text-align: center;
+  }
+
+  .partners-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0rem;
+  }
+
+  .partners-logo-div {
+    display: flex;
+    gap: 2.5rem;
+    height: 4rem;
+  }
+
+  .partners-logo {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .partners-logo-1 {
+    height: 1rem;
+    object-fit: cover;
+  }
+
+  .height {
+    margin-top: 0;
+  }
+
+  .sub-etf-section {
+    padding: 4rem 1rem 0 1rem;
+  }
+
+  .section-heading {
+    width: 100%;
+  }
+
+  .commodities-sub-header-cont {
+    margin-bottom: 1rem;
+  }
+
+  .commission-list-items {
+  }
+
+  .common-questions-text {
+    padding: 0 1rem;
+    font-size: 1.6rem;
+  }
+
+  .footer-padding {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .etf-faq-cont {
+    padding: 0 1rem 2.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+}
