@@ -96,4 +96,69 @@ export const faqMetals = [
 ];
 
 
-export const faqSecurity = []
+
+export const faqSecurity = [
+  {
+    question: "Is Mercuryo safe?",
+    answer:
+      "We take our users’ safety very seriously. Security is a natural and foundational part of everything we do from developing and deploying code to building and running our platform.",
+  },
+  {
+    question: "Is Mercuryo regulated?",
+    answer:
+      "We operate our businesses based on various VASP registrations, as well as MiFID II, E-Money and PSD II licences amongst all our core markets. The Mercuryo Group diligently follows European law and regulations, and Bitpanda Payments GmbH possesses a payment service provider licence under PSD2, recently becoming an E-Money Institute. Our stringent user verification processes are also fully compliant with AML5.",
+  },
+  {
+    question: "Who owns my assets?",
+    answer:
+      "When you invest with Bitpanda, you do. You are the beneficial owner of your assets (crypto assets and metals) and we hold them in custody, as a trustee. It’s your investment, your assets - we just keep them safe. All assets are held in a highly-secure environment. As a result, if something goes wrong, you will not be treated as an unsecured creditor and you don’t risk losing your assets. Instead, you assert the right of separation under Austrian law. For Bitpanda Stocks we have implemented a pledge system and all underlyings are held with a licensed custodian for securities (please refer to our prospectus). So whether you want to move it, trade it, invest it or grow it; it’s your investment, your choice.",
+  },
+  {
+    question: "Is Mercuryo safe?",
+    answer:
+      "We take our users’ safety very seriously. Security is a natural and foundational part of everything we do from developing and deploying code to building and running our platform.",
+  },
+  {
+    question:
+      "Does Mercuryo really have all clients asstes (all Crypto assets, BCI, Mercuryo Stocks, ETFs & Commodities   and Metals) backed 1:1?",
+    answer:
+      "Yes, all of our customers' assets are physically backed up 1:1 and are stored in a highly secure environment.",
+  },
+  {
+    question: "Do we speculate with client assets at all?",
+    answer:
+      "No, we do not speculate with customers’ assets in any of the asset classes we offer to our customers (crypto assets, BCI, Bitpanda Stocks, ETFs & Commodities and Metals).",
+  },
+  {
+    question:
+      "Mercuryo operates as a trustee - what does that mean for our clients?",
+    answer:
+      "Bitpanda manages client assets as a trustee, the client remains the beneficial owner. But what does that mean? Bitpanda holds clients crypto assets as trustee under a legally binding trust agreement with its customers and therefore there is a legally binding separation between our own assets and those of our customers. We do not speculate with customers’ assets we hold. Customers have a right to separation and are not treated as unsecured creditors; therefore customers cannot lose their crypto assets in custody.",
+  },
+  {
+    question:
+      "How does ownership of the assets included in the crypto indices work?",
+    answer:
+      "Ownership works just like with other assets. You are acquiring each single asset and not a basket.",
+  },
+  {
+    question: "Do we plan on integrating hardware wallet interoperability?",
+    answer:
+      "Thanks for your suggestion. We are working around the clock to improve our blockchain infrastructure, so our customers have all deposit/withdrawal options they need. Withdrawing or depositing to and from Bitpanda to your Ledger is already possible, by simply using your ERC-20 deposit/withdrawal address. A deeper integration is not planned right now, but we can consider it for the future. Hope this answers your question.",
+  },
+  {
+    auestion: "What about 99% of BEST bring in 3 wallets? Are funds safe",
+    answer:
+      "We are the safe custodian for our users and our distribution of user funds within these wallets is distributed between our many BEST holders. These funds are on Bitpanda wallets, as BEST is our ecosystem token and users benefit most from the loyalty program, when they are holding it on our platform.",
+  },
+  {
+    question: "What does cold wallet storage mean? How does it work?",
+    answer:
+      "Mercuryo holds all assets of customers as a trustee and these are 100% backed by real assets and kept in a highly secure environment (warm and cold wallets). We do not speculate with our clients’ assets and they are never used as collateral.",
+  },
+  {
+    question: "How does this work when Staking is involved?",
+    answer:
+      "Thanks for your suggestion. We are working around the clock to improve our blockchain infrastructure, so our customers have all deposit/withdrawal options they need. Withdrawing or depositing to and from Bitpanda to your Ledger is already possible, by simply using your ERC-20 deposit/withdrawal address. A deeper integration is not planned right now, but we can consider it for the future. Hope this answers your question.",
+  },
+];

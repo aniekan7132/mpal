@@ -12,8 +12,7 @@ import socReport from "../img/soc-report.webp";
 import SecuringMyPassword from "../components/SecuringMyPassword";
 import propertyImage from "../img/property-home-b.png";
 import iconAcademy from "../img/icon-academy.svg";
-import { FaAngleDown } from "react-icons/fa6";
-import { IoIosArrowUp } from "react-icons/io";
+import { faqSecurity } from "../data";
 
 const PlatformSecurity = ({ platformHeader, platformText }) => {
   return (
@@ -41,35 +40,15 @@ export const Academy = ({ academyHeader, academyText }) => {
 };
 
 const Security = () => {
-  const [open, setOpen] = useState(false);
-  const [close, setClose] = useState(true);
+  const [activeIndex, setActiveIndex] = useState(null);
 
-  const handleClickOpen = (e) => {
-    setOpen(true);
-    setClose(false);
-    e.stopPropagation();
+  const toggleFAQ = (index) => {
+    if (activeIndex === index) {
+      return setActiveIndex(null);
+    }
+
+    setActiveIndex(index);
   };
-
-  const handleClickClose = () => {
-    setOpen(false);
-    setClose(true);
-  };
-
-  const Faq = ({ faqQuestion, faqAnswer, handleOpen, handleClose }) => {
-    return (
-      <div className="faq-div">
-        <div className="faq-sub-div">
-          <p className="faq-question">{faqQuestion}</p>
-          <p>
-            {close && <FaAngleDown className="icon" onClick={handleOpen}/>}
-            {open && <IoIosArrowUp className="icon" onClick={handleClose}/>}
-          </p>
-        </div>
-        {open && <p className="faq-answer">{faqAnswer}</p>}
-      </div>
-    );
-  };
-
 
   return (
     <>
@@ -248,7 +227,7 @@ const Security = () => {
             <img
               className="property-icon"
               src={propertyImage}
-              alt="property-image"
+              alt="property"
             />
           </div>
           <div className="ukas-container-right ukas-container-green">
@@ -293,68 +272,19 @@ const Security = () => {
       </div>
 
       <div className="faq-section">
-        <Faq
-          faqQuestion="Is Mercuryo safe?"
-          faqAnswer="We take our users’ safety very seriously. Security is a natural and
-            foundational part of everything we do from developing and deploying
-            code to building and running our platform."
-          handleOpen={handleClickOpen}
-          handleClose={handleClickClose}
-        />
-        <Faq
-          faqQuestion="Is Mercuryo regulated?"
-          faqAnswer="We operate our businesses based on various VASP registrations, as well as MiFID II, E-Money and PSD II licences amongst all our core markets. The Mercuryo Group diligently follows European law and regulations, and Bitpanda Payments GmbH possesses a payment service provider licence under PSD2, recently becoming an E-Money Institute. Our stringent user verification processes are also fully compliant with AML5."
-        />
-        <Faq
-          faqQuestion="Who owns my assets?"
-          faqAnswer="When you invest with Bitpanda, you do. You are the beneficial owner of your assets (crypto assets and metals) and we hold them in custody, as a trustee. It’s your investment, your assets - we just keep them safe. All assets are held in a highly-secure environment. As a result, if something goes wrong, you will not be treated as an unsecured creditor and you don’t risk losing your assets. Instead, you assert the right of separation under Austrian law. For Bitpanda Stocks we have implemented a pledge system and all underlyings are held with a licensed custodian for securities (please refer to our prospectus). So whether you want to move it, trade it, invest it or grow it; it’s your investment, your choice."
-        />
-        <Faq
-          faqQuestion="Is Mercuryo safe?"
-          faqAnswer="We take our users’ safety very seriously. Security is a natural and
-            foundational part of everything we do from developing and deploying
-            code to building and running our platform."
-        />
-        <Faq
-          faqQuestion="Does Mercuryo really have all clients asstes (all Crypto assets, BCI, Mercuryo Stocks, ETFs & Commodities   and Metals) backed 1:1?"
-          faqAnswer="Yes, all of our customers' assets are physically backed up 1:1 and are stored in a highly secure environment."
-        />
-        <Faq
-          faqQuestion="Do we speculate with client assets at all?"
-          faqAnswer="No, we do not speculate with customers’ assets in any of the asset classes we offer to our customers (crypto assets, BCI, Bitpanda Stocks, ETFs & Commodities and Metals)."
-        />
-        <Faq
-          faqQuestion="Mercuryo operates as a trustee - what does that mean for our clients?"
-          faqAnswer="Bitpanda manages client assets as a trustee, the client remains the beneficial owner. But what does that mean?
-
-Bitpanda holds clients crypto assets as trustee under a legally binding trust agreement with its customers and therefore there is a legally binding separation between our own assets and those of our customers.
-
-We do not speculate with customers’ assets we hold. 
-
-Customers have a right to separation and are not treated as unsecured creditors; therefore customers cannot lose their crypto assets in custody."
-        />
-        <Faq
-          faqQuestion="How does ownership of the assets included in the crypto indices work?"
-          faqAnswer="Ownership works just like with other assets. You are acquiring each single asset and not a basket."
-        />
-        <Faq
-          faqQuestion="Do we plan on integrating hardware wallet interoperability?"
-          faqAnswer="Thanks for your suggestion. We are working around the clock to improve our blockchain infrastructure, so our customers have all deposit/withdrawal options they need. Withdrawing or depositing to and from Bitpanda to your Ledger is already possible, by simply using your ERC-20 deposit/withdrawal address. A deeper integration is not planned right now, but we can consider it for the future. Hope this answers your question."
-        />
-        <Faq
-          faqQuestion="What about 99% of BEST bring in 3 wallets? Are funds safe"
-          faqAnswer="We are the safe custodian for our users and our distribution of user funds within these wallets is distributed between our many BEST holders.
-
-These funds are on Bitpanda wallets, as BEST is our ecosystem token and users benefit most from the loyalty program, when they are holding it on our platform."
-        />
-        <Faq
-          faqQuestion="What does cold wallet storage mean? How does it work?"
-          faqAnswer="Mercuryo holds all assets of customers as a trustee and these are 100% backed by real assets and kept in a highly secure environment (warm and cold wallets). We do not speculate with our clients’ assets and they are never used as collateral."
-        />
-        <Faq
-          faqQuestion="How does this work when Staking is involved?"
-          faqAnswer="Thanks for your suggestion. We are working around the clock to improve our blockchain infrastructure, so our customers have all deposit/withdrawal options they need. Withdrawing or depositing to and from Bitpanda to your Ledger is already possible, by simply using your ERC-20 deposit/withdrawal address. A deeper integration is not planned right now, but we can consider it for the future. Hope this answers your question."
-        />
+        {faqSecurity.map((item, index) => (
+          <div key={index} className="faq-div">
+            <div className="faq-sub-div">
+              <p className="faq-question">{item.question}</p>
+              <p style={{ cursor: "pointer" }} onClick={() => toggleFAQ(index)}>
+                {activeIndex === index ? "−" : "+"}
+              </p>
+            </div>
+            {activeIndex === index && (
+              <p className="faq-answer">{item.answer}</p>
+            )}
+          </div>
+        ))}
       </div>
       <div className="faq-note-text-div">
         <p className="faq-note-text">
