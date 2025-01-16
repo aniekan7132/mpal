@@ -373,14 +373,6 @@ const Metals = () => {
           <div className="start-trading-button">
             <Link
               className="start-trading-btn"
-              // style={{
-              //   background: "#27D17F",
-              //   padding: "15px 45px",
-              //   borderRadius: "5px",
-              //   color: "#FFFFFF",
-              //   fontSize: "1.3rem",
-              //   fontWeight: 400,
-              // }}
               handleClick={() => {}}
             >
               Get started

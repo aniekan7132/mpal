@@ -95,8 +95,6 @@ export const faqMetals = [
   },
 ];
 
-
-
 export const faqSecurity = [
   {
     question: "Is Mercuryo safe?",
@@ -160,5 +158,108 @@ export const faqSecurity = [
     question: "How does this work when Staking is involved?",
     answer:
       "Thanks for your suggestion. We are working around the clock to improve our blockchain infrastructure, so our customers have all deposit/withdrawal options they need. Withdrawing or depositing to and from Bitpanda to your Ledger is already possible, by simply using your ERC-20 deposit/withdrawal address. A deeper integration is not planned right now, but we can consider it for the future. Hope this answers your question.",
+  },
+];
+
+export const academy = [
+  {
+    academyHeader: "WHAT ARE PUBLIC KEYS, PRIVATE KEYS AND WALLET ADDRESSES?",
+    academyText:
+      "Discover how private and public keys allow you to access encrypted information and to keep it secret from third parties.",
+  },
+  {
+    academyHeader: "HOW CAN I KEEP MY CRYPTOCURRENCIES SAFE?",
+    academyText:
+      "Learn how practising safe cybersecurity habits and keeping your software up-to-date minimises the risk of losing your crypto.",
+  },
+  {
+    academyHeader: "CAN A CRYPTOCURRENCY GET HACKED OR SHUT DOWN?",
+    academyText:
+      "Blockchain technology is designed to fend off hackers, but people and websites are easier targets. Learn how to stay safe",
+  },
+  {
+    academyHeader: "WHAT IS A STOCK?",
+    academyText:
+      "A stock represents ownership of a share in a publicly listed company and is usually a medium to long-term investment.",
+  },
+  {
+    academyHeader: "WHAT DOES TO DIVERSIFY YOUR PORTFOLIO MEAN?",
+    academyText:
+      "Achieving a well-balanced portfolio means considering risk tolerance, costs, timing, weighting and diversified holdings",
+  },
+];
+
+export const platformSecurity = [
+  {
+    platformHeader: "Infrastructure safeguards",
+    platformText:
+      "We have a system of layered technical defences in place to safeguard our platform and to uphold the confidentiality, integrity and availability of our infrastructure. Additionally, we practise secure software development lifecycle in order to build our products",
+  },
+  {
+    platformHeader: "Internal security measures",
+    platformText:
+      "Our internal security teams ensure the day-to-day activities of our colleagues take place in a secure manner as part of a safe and controlled environment. We build and run our insider threat monitoring programme and regularly conduct training exercises to increase awareness of security topics across the organisation.",
+  },
+  {
+    platformHeader: "Continuous security assessment",
+    platformText:
+      "Routine assessments of our security controls and processes through exercises like penetration tests completed by reputable external parties, proactive internal threat hunting, as well as our public  ensure that we can prevent potential attacks and minimise risk.",
+  },
+];
+
+export const securityCard = [
+  {
+    headerText: "Financial Transparency",
+    text: "Not only are we the leading European crypto investment platform, we are also one of the most regulated. We believe in doing things the right way, not the easy way, which is why we choose to be fully transparent, to acquire licences that see us monitored by multiple financial market authorities, and to have our funds and business practices regularly validated by external parties.",
+  },
+  {
+    headerText: "User data protection",
+    text: "Mercury only processes your personal data for the purposes permitted according to GDPR. We do not use personal data for automated decision-making, including profiling, and we have several security measures in place to make sure your data is safely stored and processed.",
+    className: "security-card-alt",
+  },
+  {
+    headerText: "Regulations, licences, registrations",
+    text: "The Mercury Group diligently follows European laws and regulations. We operate our businesses based on various VASP registrations, as well as MiFID II, E-Money and PSD II licences amongst all our core markets.",
+    className: "security-card-alt",
+  },
+  {
+    headerText: "Asset protection",
+    text: "We prioritise keeping your assets safe, incorporating multiple security measures to protect them from potential threats. Crypto assets are stored in highly-secure cold storage facilities that are examined by an external auditor. Your assets are yours.",
+  },
+  {
+    headerText: "Advanced Encryption",
+    text: "Mercury infrastructure and systems are secured with the most modern encryption technologies and supported by our dedicated security teams.",
+  },
+  {
+    headerText: "24/7 Coverage",
+    text: "As the markets are open 24/7, so are we. Our Operations, Security and Engineering teams operate on a 24/7 coverage model to respond to any changes within the markets.",
+    className: "security-card-alt",
+  },
+];
+
+export const securingMyPassword = [
+  {
+    header: "Password Management",
+    text: "User passwords are stored using the most trusted and modern hashing algorithms. Nobody can read or decrypt them, including us.",
+  },
+  {
+    header: "MFA",
+    text: "If activated by the user (highly recommended by Bitpanda) time-based one-time passwords and multi-factor authentication to defend against security threats and additional 2FA in case of user password compromise.",
+  },
+  {
+    header: "KYC / AML",
+    text: "Robust KYC onboarding and verification procedures, and fully compliant with European regulation.",
+  },
+  {
+    header: "Account Lock",
+    text: "Users are prompted via email to verify every password reset request and to freeze their account if the request was not initiated by them.",
+  },
+  {
+    header: "Session Management",
+    text: "Bitpanda allows users to see which browsers and devices they are logged in from to control their account access.",
+  },
+  {
+    header: "Account monitoring",
+    text: "Important notifications to the user to ensure overview of user account activity.",
   },
 ];
